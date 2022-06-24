@@ -24,5 +24,5 @@ Pod::Spec.new do |spec|
 
   spec.preserve_path = 'CodePorting.Translator.Cs2Cpp_macos_22.6/licenses/3rdParty.pdf'
 
-  spec.xcconfig = { 'LD_RUNPATH_SEARCH_PATHS' => '${PODS_ROOT}/CodePorting.Translator.Cs2Cpp/CodePorting.Translator.Cs2Cpp_macos_22.6/lib' }
+  spec.xcconfig = { 'LD_RUNPATH_SEARCH_PATHS' => '${PODS_ROOT}/CodePorting.Translator.Cs2Cpp.Framework/CodePorting.Translator.Cs2Cpp_macos_22.6/lib' }
 end
